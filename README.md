@@ -14,13 +14,13 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Then you can invoke the script as:
 ## Disable headset for heasdset with specific name nome specifico (Default disable)
-.\hs_manage.ps1 -NomeCuffia "WH-CH510"
+.\hs_manage.ps1 -HeadsetName "WH-CH510"
 
 ## Enable headset mode on all headsets
 .\hs_manage.ps1 -Enable
 
 ## Enable headset mode on specific headset
-.\hs_manage.ps1 -NomeCuffia "Sony" -Enable
+.\hs_manage.ps1 -HeadsetName "Sony" -Enable
 
 ## List audio devices
 .\hs_manage.ps1 -ListOnly
