@@ -5,8 +5,7 @@ Script to disable the headset profile on a windows machine for a specific blueto
 I found an issue using some sony headphones (Sony WH-CH510) unmanageable via Sony app that, when used in headset mode
 pick up ambient audio echoing it to the earpice, making listening quite annoying.
 
-With this script you can disable the headset mode for the devicem forcing it to run as A2DP (disabling the embedded microphone)
-deactivating the embedded microphone and the tedious echoing effect
+With this script you can disable the headset mode for the devicem forcing it to run as A2DP disabling the embedded microphone and tedious echoing effect
 
 # Usage
 First you have to enable unsigned code (this script) running the following command in an administrative powershell
