@@ -13,13 +13,13 @@ First you have to enable unsigned code (this script) running the following comma
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Then you can invoke the script as:
-## Disable headset for heasdset with specific name (Default disable)
+## Disable headset profile for device with specific name (Default disable)
 .\hs_manage.ps1 -HeadsetName "WH-CH510"
 
-## Enable headset mode on all headsets
+## Enable headset mode on all devices
 .\hs_manage.ps1 -Enable
 
-## Enable headset mode on specific headset
+## Enable headset mode on specific devices
 .\hs_manage.ps1 -HeadsetName "Sony" -Enable
 
 ## List audio devices
